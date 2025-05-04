@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Andres Dev</title>
 </head>
-<body>
 
+<body>
     <header>
-        <nav id="navbar">
-            <h1>Andres Dev</h1>
-            <ul id="links">
-                <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a id="profile-link" href="#contacto" target="_blank">Contacto</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#about">Sobre mí</a></li>
+        <a href="#" class="logo">Andres Dev</a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#menu">Inicio</a></li>
+                <li><a href="#about">Sobre mi</a></li>
+                <li><a href="#conocimientos">Servicios</a></li>
+                <li><a href="#projects">Portafolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+        <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
     <div id="welcome-section">
@@ -32,21 +39,22 @@
             <div id="conocimientos">
                 <h2>Conocimientos</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS, Bootstrap</li>
-                    <li>JavaScript</li>
-                    <li>Node.js</li>
+                    <li>Python: Flask, Flet, Tkinter, Matplotlib, Data Analyst</li>
+                    <li>DB: PostgreSQL, Firebase, MongoDB</li>
                     <li>Java: Java GUI's</li>
-                    <li>Python: Flet, Tkinter, Matplot</li>
-                    <li>SQL: PostgreSQL, Firebase, MongoDB</li>
+                    <li>CSS, Bootstrap</li>
+                    <li>JavaScript, React</li>
+                    <li>Node.js</li>
                 </ul>
             </div>
 
             <div id="perfil-link">
-                <a id="email" href="andreseduardoarevalo.sul@gmail.com" target="_blank"><img src="img/correo-electronico.png" alt="email"></a>
-                <a id="github" href="https://github.com/aarevalo07" target="_blank"><img src="img/github.png" alt="github"></a>
-                <a id="linkedin" href="linkedin.com" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
-                <a id="whatsapp" href="https://wa.me/qr/JH3MMMSJDO6UI1" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a>
+                <a id="email" href="andreseduardoarevalo.sul@gmail.com" target="_blank"><i
+                        class='bx bx-envelope'></i></a>
+                <a id="github" href="https://github.com/aarevalo07" target="_blank"><i class="bx bxl-github"></i></a>
+                <a id="linkedin" href="linkedin.com" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a id="whatsapp" href="https://wa.me/584128812875" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
             </div>
 
             <h3>¡Gracias por visitar!</h3>
@@ -55,37 +63,32 @@
 
         <div id="projects">
 
-            <div>
-                <div class="project-tile">
+            <div id="projects-seen">
+                <!-- <div class="project-tile">
                     <h2>Proyecto 1</h2>
                     <p>Descripción del proyecto 1.</p>
-                    <hr>
-                    <img src="" alt="imagen del proyecto 1">
                 </div>
                 <div class="project-tile">
                     <h2>Proyecto 1</h2>
                     <p>Descripción del proyecto 1.</p>
-                    <hr>
-                    <img src="" alt="imagen del proyecto 1">
                 </div>
                 <div class="project-tile">
                     <h2>Proyecto 1</h2>
                     <p>Descripción del proyecto 1.</p>
-                    <hr>
-                    <img src="" alt="imagen del proyecto 1">
                 </div>
                 <div class="project-tile">
                     <h2>Proyecto 1</h2>
                     <p>Descripción del proyecto 1.</p>
-                    <hr>
-                    <img src="" alt="imagen del proyecto 1">
-                </div>
+                </div> -->
             </div>
 
             <a id="more-projects" href="https://github.com/aarevalo07">Mas Proyectos</a>
-            
+
         </div>
     </div>
     <div id="about"></div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
